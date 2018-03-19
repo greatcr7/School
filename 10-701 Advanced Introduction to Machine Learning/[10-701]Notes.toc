@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Probability Models}{1}
+\contentsline {subsection}{\numberline {1.1}MLE, Estimators, Guarantees}{1}
+\contentsline {subsection}{\numberline {1.2}MAP, Bayesian Estimation}{1}
+\contentsline {section}{\numberline {2}Model-free Methods, Decision Theory}{1}
+\contentsline {section}{\numberline {3}Regression}{1}
+\contentsline {subsection}{\numberline {3.1}Linear Regression}{1}
+\contentsline {subsection}{\numberline {3.2}Regularized, Polynomial, Logistic Regression}{1}
+\contentsline {section}{\numberline {4}Classification}{1}
+\contentsline {subsection}{\numberline {4.1}Naive Bayes, Generative vs Discriminative}{1}
+\contentsline {subsubsection}{\numberline {4.1.1}Generative vs Discriminative Model}{1}
+\contentsline {paragraph}{Generative(Model-BASED) Approach}{1}
+\contentsline {paragraph}{Discriminative(Model-FREE) Approach}{1}
+\contentsline {subsection}{\numberline {4.2}Support Vector Machines (SVM)}{1}
+\contentsline {subsection}{\numberline {4.3}Boosting, Surrogate Losses}{1}
+\contentsline {section}{\numberline {5}Decision Tree}{1}
+\contentsline {section}{\numberline {6}Neural Networks and Deep Learning}{2}
+\contentsline {section}{\numberline {7}Non-parametric Models}{2}
+\contentsline {subsection}{\numberline {7.1}K-Nearest Neighbors, Kernel Density Estimation}{2}
+\contentsline {subsection}{\numberline {7.2}SVM, Linear Regression: primal + dual, Kernel Trick}{2}
+\contentsline {section}{\numberline {8}Generalization, Model Selection}{2}
+\contentsline {subsection}{\numberline {8.1}True Risk vs Empirical Risk}{2}
+\contentsline {subsection}{\numberline {8.2}Estimating True Risk}{2}
+\contentsline {subsection}{\numberline {8.3}Improving Empirical Risk Minimization}{2}
+\contentsline {subsection}{\numberline {8.4}Model Selection by Estimating True Risk}{2}
+\contentsline {subsection}{\numberline {8.5}Analyzing Generalization Error Via True Risk}{2}

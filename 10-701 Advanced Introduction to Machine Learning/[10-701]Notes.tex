@@ -1,0 +1,121 @@
+\documentclass{article}
+
+%Packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{color}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%Title Page
+\title{[10-701] Introduction to Machine Learning(PhD)}
+\date{Spring 2018}
+\author{Brandon Jin}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\begin{document}
+
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%Content Page
+\tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Probability Models}
+\subsection{MLE, Estimators, Guarantees}
+\subsection{MAP, Bayesian Estimation}
+
+\section{Model-free Methods, Decision Theory}
+
+\section{Regression}
+\subsection{Linear Regression}
+\subsection{Regularized, Polynomial, Logistic Regression}
+
+\section{Classification}
+\subsection{Naive Bayes, Generative vs Discriminative}
+\textbf{Conditional Independence}
+
+X is conditionally independent of Y given Z:\\
+P(X|Y, Z) = P(X|Z). Also, P(X, Y|Z) = P(X|Z)P(Y|Z).\\
+For example, P(Thunder|Rain, Lightning) = P(Thunder|Lightning). Thunder is not independent of rain. However, thunder is \textbf{conditionally independent} of rain given lightning. If you see lightning, thunder and rain are independent. Seeing rain does not given you information about thunder in that case.
+
+\textbf{Naive Assumption: features are independent given class}\\
+$P(X_1, X_2|Y) = P(X_1|X_2, Y)P(X_2|Y) = P(X_1|Y)P(X_2|Y)$. More generally, $P(X_1...X_d|Y) = \Pi_{i=1}^{d} P(X_i|Y)$.\\
+\textit{Note: if conditional independence assumption hold, Naive Bayes is the optimal classifier. But worse otherwise.}
+
+\subsubsection{Generative vs Discriminative Model}
+\paragraph{Generative(Model-BASED) Approach}
+
+\paragraph{Discriminative(Model-FREE) Approach}
+
+\subsection{Support Vector Machines (SVM)}
+\subsection{Boosting, Surrogate Losses}
+
+\section{Decision Tree}
+
+\newpage
+\section{Neural Networks and Deep Learning}
+\textit{For each neuron, }\\
+\textbf{Weight} tells you what pattern this neuron in the second layer is picking up on 
+\textbf{Bias} tells you how high the weighted sum needs to be before the neuron starts getting meaningfully active
+
+\section{Non-parametric Models}
+\subsection{K-Nearest Neighbors, Kernel Density Estimation}
+\subsection{SVM, Linear Regression: primal + dual, Kernel Trick}
+
+
+
+
+
+\section{Generalization, Model Selection}
+\subsection{True Risk vs Empirical Risk}
+\subsection{Estimating True Risk}
+\subsection{Improving Empirical Risk Minimization}
+\subsection{Model Selection by Estimating True Risk}
+\subsection{Analyzing Generalization Error Via True Risk}
+
+
+
+
+
+
+
+
+
+\end{document}
